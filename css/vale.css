@@ -1,10 +1,24 @@
-.navbar .nav-link
-{
-    color: white; 
-    font-weight: bold; 
-    font-size: 1.3rem; 
+.navbar {
+  background-color: #004aad;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
-.navbar
-{
-  background-color: lightblue;
+.navbar .nav-link {
+  color: white !important;
+}
+.footer {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 0;
+}
+.footer a {
+  color: white;
+}
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+.contact-form input, .contact-form textarea {
+  margin-bottom: 10px;
 }
