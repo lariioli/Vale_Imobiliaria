@@ -37,30 +37,73 @@
                 </div>
             </div>
         </nav>
-        </header>
-        <main>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/casa1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/ap.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/chacara.jpg" class="d-block w-100" alt="...">
+    </header>
+    <main class="mt-5 pt-3">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/casa1.jpg" class="d-block w-100" alt="Casa">
+                    <div class="carousel-caption d-none d-md-block cor">
+                        <h5>Casas Modernas</h5>
+                        <p>Encontre seu imóvel dos seus sonhos!</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="img/ap.jpg" class="d-block w-100" alt="Apartamento">
+                    <div class="carousel-caption d-none d-md-block cor">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/chacara.jpg" class="d-block w-100" alt="Chácara">
+                    <div class="carousel-caption d-none d-md-block cor">
+                    </div>
+                </div>
             </div>
-        </main>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <section class="container my-5">
+            <h2 class="text-center">Imóveis em Destaque</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/casa1.jpg" class="card-img-top" alt="Casa">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa Luxuosa</h5>
+                            <p class="card-text">R$ 950.000 - 3 quartos, piscina e garagem.</p>
+                            <a href="casas.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/ap.jpg" class="card-img-top" alt="Apartamento">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Moderno</h5>
+                            <p class="card-text">R$ 450.000 - 2 quartos e vista para o mar.</p>
+                            <a href="apartamento.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/chacara.jpg" class="card-img-top" alt="Chácara">
+                        <div class="card-body">
+                            <h5 class="card-title">Chácara Espetacular</h5>
+                            <p class="card-text">R$ 1.200.000 - Ampla área verde e lago.</p>
+                            <a href="chacaras.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
         <footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         </footer>
