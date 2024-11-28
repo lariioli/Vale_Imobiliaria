@@ -1,21 +1,38 @@
 .navbar {
   background-color: #004aad;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000;
   font-weight: bold;
   font-size: 1.3em;
 }
 .navbar .nav-link {
-  color: white !important;
+  color: white;
+}
+main {
+  margin-top: 75px; /* Espaço para a navbar */
+  padding-bottom: 80px; /* Espaço para o footer */
+  flex: 1;
 }
 .footer {
   background-color: #004aad;
   color: white;
   padding: 20px 0;
+  position: relative; /* Padrão */
+  bottom: 0;
+  width: 100%;
+}
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
 }
 .footer a {
   color: white;
+  text-decoration: none;
 }
 .carousel-item img {
   max-height: 500px;
@@ -29,7 +46,6 @@
   flex-wrap: wrap;
   gap: 16px; 
 }
-
 .card {
   background-color: white;
   border: 1px solid #ccc;
@@ -42,3 +58,4 @@
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
