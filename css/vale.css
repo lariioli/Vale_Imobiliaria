@@ -59,3 +59,34 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.card-custom {
+  height: 100%; /* Garante que todos os cards tenham o mesmo tamanho */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-custom .carousel {
+  height: 250px; /* Define altura fixa para os carrosséis nos cards */
+}
+
+.card-custom .carousel img {
+  object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorções */
+  height: 100%;
+  width: 100%;
+}
+
+.footer i {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}
+
+.footer a {
+  display: flex;
+  align-items: center; /* Centraliza os ícones verticalmente */
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Mantém a cor do texto atual */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  color: #ccc; /* Altera a cor ao passar o mouse */
+}
