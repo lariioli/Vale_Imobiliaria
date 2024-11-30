@@ -43,12 +43,6 @@ body {
 .contact-form input, .contact-form textarea {
   margin-bottom: 10px;
 }
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px; 
-}
-
 
 
 .footer a {
@@ -63,9 +57,7 @@ body {
   margin-right: 6px;
 }
 
-.row.mt-4.g-3 {
-  gap: 16px; 
-}
+
 
 .card {
   background-color: white;
