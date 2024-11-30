@@ -7,33 +7,35 @@
   font-weight: bold;
   font-size: 1.3em;
 }
+
 .navbar .nav-link {
   color: white;
 }
+
 main {
-  margin-top: 75px; /* Espaço para a navbar */
-  padding-bottom: 80px; /* Espaço para o footer */
+  margin-top: 75px; 
+  padding-bottom: 80px; 
   flex: 1;
 }
+
 .footer {
   background-color: #004aad;
   color: white;
   padding: 20px 0;
-  position: relative; /* Padrão */
+  position: relative;
   bottom: 0;
   width: 100%;
 }
+
 html, body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
-.footer a {
-  color: white;
-  text-decoration: none;
-}
+
 .carousel-item img {
   max-height: 500px;
   object-fit: cover;
@@ -46,47 +48,50 @@ body {
   flex-wrap: wrap;
   gap: 16px; 
 }
+
+
+
+.footer a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer a i {
+  margin-right: 6px;
+}
+
+.row.mt-4.g-3 {
+  gap: 16px; 
+}
+
 .card {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
-  width: 400px; 
-  height: 450px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.card-custom {
-  height: 100%; /* Garante que todos os cards tenham o mesmo tamanho */
+.card h5 {
+  margin-bottom: 10px;
+}
+
+.card-body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.card-custom .carousel {
-  height: 250px; /* Define altura fixa para os carrosséis nos cards */
+.card-img-top {
+  object-fit: cover;
 }
-
-.card-custom .carousel img {
-  object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorções */
-  height: 100%;
-  width: 100%;
-}
-
-.footer i {
-  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
-}
-
-.footer a {
-  display: flex;
-  align-items: center; /* Centraliza os ícones verticalmente */
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Mantém a cor do texto atual */
-}
-
-.footer a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-  color: #ccc; /* Altera a cor ao passar o mouse */
-}
+  
+  .card-img-top {
+    object-fit: cover;
+  }
+  
+  
